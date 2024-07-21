@@ -60,6 +60,6 @@ export default class Player {
         this.updatePlayer(deltaT);
     }
     moveHorizontal(newHorizontalPosition) {
-        this.player.position.x = newHorizontalPosition;
+        this.player.position.x += newHorizontalPosition;
     }
 }
